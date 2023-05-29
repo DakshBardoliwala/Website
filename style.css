@@ -1,0 +1,50 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(220, 220, 220);
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: rgb(75, 75, 75);
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    font-size: 20px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav li a:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+table, tr, th, td {
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
